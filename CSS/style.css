@@ -45,8 +45,8 @@ img {
 /*page-top-----------------------*/
 #page-top {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 20%;
+  right: 20%;
   /*font-size: 77%;*/
   z-index: 999;
 }
