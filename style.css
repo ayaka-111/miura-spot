@@ -587,14 +587,14 @@ small {
       min-height: 3500px;
       width: 100%;
   }
-  /*.item {
+  .item {
      width: 350px;
      height: 350px;
-  }*/
- /* .item img {
+  }
+  .item img {
      width: 350px;
      height: 350px;
-  }*/
+  }
   /* 各ページ */
   .page-contents {
       flex-direction: column;
