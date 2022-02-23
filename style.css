@@ -31,7 +31,6 @@ img {
     height: 125px;
     margin-bottom: 40px;
     background-size: cover;
-    width: 100%;
 }
 .wrapper {
     max-width: 1600px;
@@ -566,8 +565,11 @@ small {
   }
   .page-header {
       flex-direction: column;
-      justify-content: center;
+      align-items: center;
       width: 100%;
+  }
+  #nav {
+     align-items: center;
   }
    /* HOME */
   .home-content {
@@ -619,6 +621,5 @@ small {
   /*footer*/
    #footer{
       width: 100%;
-      margin-top:10px;
   }
 }/*media*/
