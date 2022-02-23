@@ -618,5 +618,6 @@ small {
   /*footer*/
    #footer{
       width: 100%;
+      margin-top:10px;
   }
 }/*media*/
