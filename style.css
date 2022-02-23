@@ -132,6 +132,9 @@ img {
 
 
 /*==ヘッダーのテキストナビゲーションの形状*/
+#nav {
+    width: 100%;
+}
 .main-nav {
     list-style: none;
     display: flex;
