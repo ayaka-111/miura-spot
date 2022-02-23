@@ -564,13 +564,16 @@ small {
   .page-title {
       font-size: 2.5rem;
   }
+  .wrapper {
+     padding: 0 0;
+  }
 
   /* HOME */
   .home-content {
       margin-top: 20%;
   }
   .grid {
-     min-height: 1800px;
+     min-height: 2000px;
   }
   .page-header {
       flex-direction: column;
