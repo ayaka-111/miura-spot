@@ -604,6 +604,14 @@ small {
   textarea {
       max-width: 100%;
   }
+  /*地図*/
+  #location .wrapper {
+     flex-direction: column;
+  }
+  .location-info,
+  .location-map {
+     width: 100%;
+  }
   /*footer*/
    #footer{
       padding-left: 0;
