@@ -259,7 +259,7 @@ nav li.has-sub ul li a:active {
 /* タイトルとp */
 .home-content wrapper {
     margin-top: 10px;
-    max-width: 600px;
+    /*max-width: 600px;*/
 }
 .page-title {
     font-size: 4rem;
