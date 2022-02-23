@@ -570,6 +570,10 @@ small {
   .main-nav {
      justify-content: space-between;
   }
+  nav li .has-sub ul {
+     left: 0;
+     top: 62px;
+  }
    /* HOME */
   .home-content {
       margin-top: 20%;
