@@ -568,8 +568,8 @@ small {
       align-items: center;
       width: 100%;
   }
-  #nav {
-     align-items: center;
+  .main-nav {
+     justify-content: space-between;
   }
    /* HOME */
   .home-content {
