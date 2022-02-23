@@ -560,6 +560,9 @@ small {
 /*モバイル版
 --------------------------------------------------------------------------　*/
 @media (max-width: 600px) {
+   .wrapper {
+      overflow: hidden;
+  }
 
   .page-title {
       font-size: 2.5rem;
@@ -570,7 +573,7 @@ small {
       margin-top: 20%;
   }
   .grid {
-      min-height: 2900px;
+      min-height: 3000px;
       min-width: 100vw;
       padding-left: 0;
   }
