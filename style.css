@@ -566,7 +566,7 @@ small {
   /* HOME */
   .home-content {
       margin-top: 20%;
-      min-height:1800px;
+      min-height: 2000px;
   }
   .page-header {
       flex-direction: column;
