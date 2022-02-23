@@ -563,11 +563,13 @@ small {
    .wrapper {
       overflow: hidden;
   }
-
   .page-title {
       font-size: 2.5rem;
   }
-
+  .page-header {
+      flex-direction: column;
+      align-items: center;
+  }
   /* HOME */
   .home-content {
       margin-top: 20%;
@@ -577,12 +579,14 @@ small {
       min-width: 100vw;
       padding-left: 0;
   }
-  .page-header {
-      flex-direction: column;
-      align-items: center;
-      min-width: 100vw;
+  .item {
+     width: 350px;
+     height: 350px;
   }
-
+  .item img {
+     width: 350px;
+     height: 350px;
+  }
   /* 各ページ */
   .page-contents {
       flex-direction: column;
