@@ -35,7 +35,7 @@ img {
 .wrapper {
     max-width: 1600px;
     margin: 0 auto;
-    padding: 0 4%;
+    padding: 0 0;/*4%*/
 }
 
 
