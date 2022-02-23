@@ -568,14 +568,13 @@ small {
       align-items: center;
       width: 100%;
   }
-  /* HOME */
+   /* HOME */
   .home-content {
       margin-top: 20%;
   }
   .grid {
       min-height: 3000px;
-      min-width: 100vw;
-      padding-left: 0;
+      width: 100%;
   }
   .item {
      width: 350px;
