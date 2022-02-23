@@ -576,7 +576,7 @@ small {
       margin-top: 20%;
   }
   .grid {
-      min-height: 3000px;
+      min-height: 100%;/*3000*/
       width: 100%;
   }
   /*.item {
