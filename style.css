@@ -572,6 +572,7 @@ small {
   .grid {
      min-height: 2800px;
      min-width: 100vw;
+     padding-left: 0;
   }
   .page-header {
       flex-direction: column;
