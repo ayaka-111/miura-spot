@@ -290,6 +290,8 @@ nav li.has-sub ul li a:active {
 }
 .item {
     position: relative;
+    width: 400px;
+    height: 400px;
 }
 .item p {
     position: absolute;
