@@ -565,7 +565,7 @@ small {
       font-size: 2.5rem;
   }
   .wrapper {
-     padding: 0 0;
+     margin: 0 0;
   }
 
   /* HOME */
@@ -573,7 +573,7 @@ small {
       margin-top: 20%;
   }
   .grid {
-     min-height: 2000px;
+     min-height: 3000px;
   }
   .page-header {
       flex-direction: column;
