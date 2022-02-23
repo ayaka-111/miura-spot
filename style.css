@@ -283,7 +283,7 @@ nav li.has-sub ul li a:active {
 /* HOMEの写真　*/
 .grid {
     display: grid;
-    gap: 50px;
+    gap: 1%;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin-top: 6%;
     margin-bottom: 50px;
