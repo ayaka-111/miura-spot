@@ -566,7 +566,9 @@ small {
   /* HOME */
   .home-content {
       margin-top: 20%;
-      min-height: 2000px;
+  }
+  .grid {
+     min-height: 1800px;
   }
   .page-header {
       flex-direction: column;
