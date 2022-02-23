@@ -560,9 +560,6 @@ small {
 /*モバイル版
 --------------------------------------------------------------------------　*/
 @media (max-width: 600px) {
-  .wrap {
-     overflow: hidden;
-  }
   .page-title {
       font-size: 2.5rem;
   }
