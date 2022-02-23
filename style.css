@@ -428,6 +428,7 @@ iframe {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
+    margin: 0;
 }
 #contact .page-title {
     color: #fff;
