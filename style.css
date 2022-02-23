@@ -570,15 +570,14 @@ small {
       margin-top: 20%;
   }
   .grid {
-      min-height: 2800px;
+      min-height: 2900px;
       min-width: 100vw;
       padding-left: 0;
   }
   .page-header {
       flex-direction: column;
       align-items: center;
-      margin-left: 0;
-      margin-right: 0;
+      min-width: 100vw;
   }
 
   /* 各ページ */
@@ -614,7 +613,6 @@ small {
   }
   /*footer*/
    #footer{
-      margin-left: 0;
-      margin-right: 0;
+      min-width: 100vw;
   }
 }/*media*/
