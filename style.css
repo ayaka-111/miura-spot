@@ -470,11 +470,11 @@ input[type="submit"] {
     line-height: 1;
 }
 .button {
-    font-size: 1.375rem;
+    font-size: 1.2rem;
     background: #0090aa;
     color: #fff;
     border-radius: 5px;
-    padding: 18px 32px;
+    padding: 18px 22px;
 }
 .button:hover {
     background:#004b83;
