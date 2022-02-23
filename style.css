@@ -577,8 +577,8 @@ small {
   .page-header {
       flex-direction: column;
       align-items: center;
-      padding-left: 0;
-      padding-right: 0;
+      margin-left: 0;
+      margin-right: 0;
   }
 
   /* 各ページ */
@@ -614,7 +614,7 @@ small {
   }
   /*footer*/
    #footer{
-      padding-left: 0;
-      paading-right: 0;
+      margin-left: 0;
+      margin-right: 0;
   }
 }/*media*/
