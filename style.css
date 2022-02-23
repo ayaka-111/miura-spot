@@ -4,7 +4,7 @@
 /*HEADER */
 .logo {
    width: 90px;
-   margin-top: 14px;
+   margin-top: 10px;
 }
 
 html {
@@ -431,6 +431,7 @@ iframe {
 }
 #contact .page-title {
     color: #fff;
+    margin-top: 10px;
 }
 
 /*フォーム　*/
