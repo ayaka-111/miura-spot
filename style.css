@@ -133,7 +133,7 @@ img {
 
 /*==ヘッダーのテキストナビゲーションの形状*/
 #nav {
-    width: 100%;
+    width: 500px;
 }
 .main-nav {
     list-style: none;
