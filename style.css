@@ -287,7 +287,6 @@ nav li.has-sub ul li a:active {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin-top: 5%;
     margin-bottom: 50px;
-    margin-left: 0;
 }
 .item {
     position: relative;
@@ -565,9 +564,6 @@ small {
   .page-title {
       font-size: 2.5rem;
   }
-  .wrapper {
-     margin: 0 0;
-  }
 
   /* HOME */
   .home-content {
@@ -575,6 +571,7 @@ small {
   }
   .grid {
      min-height: 2800px;
+     min-width: 100vw;
   }
   .page-header {
       flex-direction: column;
