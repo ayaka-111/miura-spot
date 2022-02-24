@@ -570,7 +570,7 @@ small {
       flex-direction: column;
       align-items: center;
   }
-  nav {
+  #nav {
       display: inline-block;
   }
   #nav span {
