@@ -238,9 +238,7 @@ nav li.has-sub ul {
 
 /*hoverしたら表示*/
 nav li.has-sub:hover > ul,
-nav li.has-sub ul li:hover > ul,
-nav li.has-sub:active > ul,
-nav li.has-sub ul li:active > ul {
+nav li.has-sub:active > ul {
     visibility: visible;
     opacity: 1;
 }
