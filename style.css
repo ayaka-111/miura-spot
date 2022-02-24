@@ -570,7 +570,7 @@ small {
       flex-direction: column;
       align-items: center;
   }
-  .has-sub a span {
+  .has-sub span {
      transform: rotate(-45deg);
   }
   .main-nav {
