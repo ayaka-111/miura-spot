@@ -574,7 +574,7 @@ small {
       display: inline-block;
   }
   #nav span {
-      transform: rotate(50deg)
+      transform: rotate(50deg);
       color: red;
   }
   .main-nav {
