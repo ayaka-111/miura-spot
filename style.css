@@ -570,7 +570,10 @@ small {
       flex-direction: column;
       align-items: center;
   }
-   #nav span {
+  .has-sub {
+      display: inline-block;
+  }
+  .has-sub span {
       transform: rotate(50deg)
       color: red;
   }
