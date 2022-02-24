@@ -573,14 +573,14 @@ small {
   nav {
       display: inline-block;
   }
-  nav span {
+  #nav span {
       transform: rotate(50deg)
       color: red;
   }
   .main-nav {
      justify-content: space-between;
   }
-  nav li.has-sub ul {
+  nav li.has-sub ul {/*縦方向*/
      left: 0;
      top: 62px;
   }
