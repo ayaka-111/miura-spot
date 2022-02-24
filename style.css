@@ -576,8 +576,7 @@ small {
      justify-content: space-between;
   }
   nav li .has-sub ul {
-     left: 0;
-     top: 62px;
+     visibility: visible;
   }
    /* HOME */
   .home-content {
