@@ -595,12 +595,18 @@ small {
      width: 350px;
      height: 350px;
   }
+   
   /* 各ページ */
   .page-contents {
       flex-direction: column;
   }
-  #location {
-      flex-direction: column;
+  /*地図*/
+  #location .wrapper {
+     flex-direction: column;
+  }
+  .location-info,
+  .location-map {
+     width: 100%;
   }
 
   /* access */
@@ -616,16 +622,9 @@ small {
   input[type="text"],
   input[type="email"],
   textarea {
-      max-width: 100%;
+      max-width: 80%;
   }
-  /*地図*/
-  #location .wrapper {
-     flex-direction: column;
-  }
-  .location-info,
-  .location-map {
-     width: 100%;
-  }
+  
   /*footer*/
    #footer{
       width: 100%;
