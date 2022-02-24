@@ -36,7 +36,6 @@ $("#nav li a").click(function () {//ナビゲーションのリンクがクリ�
 
 
 //リンク先のidまでスムーススクロール
-//※ページ内リンクを行わない場合は不必要なので削除してください
     $('#nav li a').click(function () {
   var elmHash = $(this).attr('href');
   var pos = $(elmHash).offset().top-0;
