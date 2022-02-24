@@ -575,7 +575,7 @@ small {
   .main-nav {
      justify-content: space-between;
   }
-  nav li .has-sub ul {
+  nav li.has-sub ul {
      visibility: visible;
      opacity: 1;
   }
