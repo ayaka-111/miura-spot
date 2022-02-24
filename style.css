@@ -570,12 +570,12 @@ small {
       flex-direction: column;
       align-items: center;
   }
-  .main-nav {
+  .has-sub {
       display: inline-block;
   }
   #nav span {
       transform: rotate(50deg);
-      color: green;
+      color: red;
   }
   .main-nav {
      justify-content: space-between;
