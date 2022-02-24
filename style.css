@@ -571,7 +571,7 @@ small {
       align-items: center;
   }
   .has-sub a span {
-     transform: rotate(90deg);
+     transform: rotate(-45deg);
   }
   .main-nav {
      justify-content: space-between;
