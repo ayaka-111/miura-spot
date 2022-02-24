@@ -571,7 +571,7 @@ small {
       align-items: center;
   }
    #nav span {
-      transform: rotate(-45deg);
+      transform: rotate(50deg)
       color: red;
   }
   .main-nav {
