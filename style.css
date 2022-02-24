@@ -577,6 +577,7 @@ small {
   }
   nav li .has-sub ul {
      visibility: visible;
+     opacity: 1;
   }
    /* HOME */
   .home-content {
