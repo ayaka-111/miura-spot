@@ -586,7 +586,7 @@ small {
   .grid {
       min-height: 3500px;
       width: 100%;
-     
+      row-gap: 5%;
   }
   .item {
      width: 350px;
