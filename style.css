@@ -288,7 +288,7 @@ nav li.has-sub ul li a:active {
     gap: 1%;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin-top: 5%;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     padding-bottom: 50px;
     height: auto;
 }
