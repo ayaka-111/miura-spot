@@ -37,11 +37,6 @@ img {
     margin: 0 auto;
     padding: 0 4%;
 }
-#home {
-    min-height: 100vh;
-    padding-bottom: 50px;
-    box-sizing: border-box;
-}
 
 /* ハンバーガーアイコン---------------------------------*/
 /*ボタン全体の形状*/
@@ -560,7 +555,6 @@ small {
 #footer {
     position: relative;
     z-index: 2;
-    bottom: 0; /*下に固定*/
 }
 
 
