@@ -582,7 +582,7 @@ small {
       margin-top: 20%;
   }
   .grid {
-      min-height: 3500px;
+      height: auto;/*3500px*/
       width: 100%;
       row-gap: 1%;
   }
