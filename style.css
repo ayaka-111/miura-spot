@@ -39,7 +39,6 @@ img {
 }
 #home {
     min-height: 100vh;
-    position: relative;
     padding-bottom: 50px;
     box-sizing: border-box;
 }
@@ -559,9 +558,8 @@ small {
     padding:20px;
 }
 #footer {
-    /*position: relative;*/
+    position: relative;
     z-index: 2;
-    position: absolute;/*←絶対位置*/
     bottom: 0; /*下に固定*/
 }
 
