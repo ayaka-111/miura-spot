@@ -6,12 +6,11 @@
    width: 90px;
    margin-top: 5px;
 }
-
 html {
    font-size:100%;
 }
 body {
-   font-family:"Yu Gothic Medium", "遊ゴシック Medium", YuGothic, "遊ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+   font-family: "Yu Gothic Medium", "遊ゴシック Medium", YuGothic, "遊ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
    line-height: 1.7;
 }
 a {
@@ -20,7 +19,6 @@ a {
 img {
     max-width: 100%;
 }
-
 /*header背景*/
 .page-header {
     display: flex;
@@ -44,18 +42,17 @@ img {
   /*はじめは非表示に*/
     display: none;
   /*ボタンの位置*/
-    position:fixed;
-    top:10px;
+    position: fixed;
+    top: 10px;
     right: 10px;
     z-index: 999;
   /*ボタンの形状*/
-    background:#666;
+    background: #666;
     cursor: pointer;
     width: 50px;
-    height:50px;
+    height: 50px;
     border-radius: 5px;
 }
-
 /*ボタンのアイコン設定*/
 .openbtn1 span {
     display: inline-block;
@@ -67,19 +64,15 @@ img {
     background-color: #fff;
     width: 45%;
 }
-
 .openbtn1 span:nth-of-type(1) {
     top:15px; 
 }
-
 .openbtn1 span:nth-of-type(2) {
     top:23px;
 }
-
 .openbtn1 span:nth-of-type(3) {
     top:31px;
 }
-
 /*activeクラスが付与された後のボタンのアイコン設定*/
 .openbtn1.active span:nth-of-type(1) {
     top: 18px;
@@ -87,18 +80,15 @@ img {
     transform: translateY(6px) rotate(-45deg);
     width: 30%;
 }
-
 .openbtn1.active span:nth-of-type(2) {
     opacity: 0;
 }
-
 .openbtn1.active span:nth-of-type(3) {
     top: 30px;
     left: 18px;
     transform: translateY(-6px) rotate(45deg);
     width: 30%;
 }
-
 /*fadeDownクラスが付与された後のボタンの出現アニメーション設定*/
 .fadeDown {
     animation-name: fadeDownAnime;
@@ -112,24 +102,19 @@ img {
     opacity: 0;
     transform: translateY(-100px);
   }
-
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
-
 /*.doneクラスがついたヘッダー*/
 .page-header.dnone {
     opacity: 0;/*透過0にして非表示に*/
 }
-
 /*メニューボタンをクリックした際に付与されるpanelactiveクラスがついたら*/
 .page-header.dnone.panelactive {
     opacity: 1;/*不透明にして出現*/
 }
-
-
 /*==ヘッダーのテキストナビゲーションの形状*/
 #nav {
     width: 374px;
@@ -142,7 +127,6 @@ img {
     padding-left: 0;
     padding-right: 0;
 }
-
 #nav ul li a {
     display: block;
     text-decoration: none;
@@ -156,12 +140,10 @@ img {
 #contact .sub li a {
   color: #432;
 }
-
 #nav ul li.current a,
 #nav ul li a:hover {
     color: #0090aa; 
 }
-
 /*.doneクラスがついたヘッダーのテキストナビゲーションの形状*/
 .page-header.dnone #nav {
     /*固定位置にして最背面に*/
@@ -181,30 +163,25 @@ img {
     opacity: 0;
     transition: all 0.4s;
 }
-
 /*メニューボタンをクリックした際に付与されるpanelactiveクラスがついたナビゲーションの形状*/
 .page-header.dnone.panelactive #nav {
     opacity: 1;/*不透明に*/
-    z-index:3;/*最前面に*/
-    background:#eee;
+    z-index: 3;/*最前面に*/
+    background: #eee;
 }
-
 .page-header.dnone.panelactive #nav ul {
-    display:block;/*flexの横並びをblockにして縦並びに*/
+    display: block;/*flexの横並びをblockにして縦並びに*/
 }
-
-
 /*リストの形状*/
-
 .page-header.dnone.panelactive #nav li a {
     color: #432;
     text-decoration: none;
-    padding:10px;
+    padding: 10px;
     display: block;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: bold;
-    transition:all 0.3s;
+    transition: all 0.3s;
 }
 /*アコーディオン*/
 /*2階層目以降は横並びにしない*/
@@ -216,52 +193,45 @@ img {
 nav ul li {
     position: relative;
 }
-
 /*== 2・3階層目の共通設定 */
 /*下の階層を持っているulの指定*/
 nav li.has-sub ul {
   /*絶対配置で位置を指定*/
     position: absolute;
-    left:100%;/*0=縦方向*/
-    top:10px;/*62px=縦方向*/
+    left: 100%;/*0=縦方向*/
+    top: 10px;/*62px=縦方向*/
     z-index: 4;
   /*形状を指定*/
     background: #eee;
-    width:180px;
+    width: 180px;
   /*はじめは非表示*/
     visibility: hidden;
     opacity: 0;
   /*アニメーション設定*/
     transition: all .3s;
 }
-
 /*hoverしたら表示*/
 nav li.has-sub:hover > ul,
 nav li.has-sub:active > ul {
     visibility: visible;
     opacity: 1;
 }
-
 /*ナビゲーションaタグの形状*/
 nav li.has-sub ul li a {
     color: #fff;
-    border-bottom:solid 1px lightgray;
+    border-bottom: solid 1px lightgray;
 }
-
 nav li.has-sub ul li:last-child a {
     border-bottom:none;
 }
-
 nav li.has-sub ul li a:hover,
 nav li.has-sub ul li a:active {
     background:lightgray;
 }
 
-
 /* タイトルとp */
 .home-content wrapper {
     margin-top: 10px;
-    /*max-width: 600px;*/
 }
 .page-title {
     font-size: 4rem;
@@ -271,7 +241,6 @@ nav li.has-sub ul li a:active {
     color: #432;
     text-align: center;
 }
-
 .home-content p {
     font-size: 2rem;
     font-family: "遊ゴシック体";
@@ -335,12 +304,11 @@ nav li.has-sub ul li a:active {
     flex-direction: column;
 }
 .sub-title img {
-    width: 90%; /*1200px*/
-    height: 50%; /*650px*/
+    width: 90%; 
+    height: 50%; 
     object-fit: cover;
     margin: 0 auto;
 }
-
 .page-contents {
     display: grid;
     gap: 50px;
@@ -397,7 +365,6 @@ nav li.has-sub ul li a:active {
     font-size: 1.25rem;
     text-transform: uppercase;
 }
-
 /* iframe */
 iframe {
     width: 100%;
@@ -419,11 +386,11 @@ iframe {
     display: flex;
     flex-direction: column;
 }
-
 .access-contents img {
     width: auto;
     height: auto;
 }
+
 /* Contact---------------------------------------------*/
 #contact {
     background-image: url(./images/contact.jpg);
@@ -440,9 +407,6 @@ iframe {
 }
 
 /*フォーム　*/
-/*form div {
-    margin-bottom: 14px;
-}*/
 label {
     font-size: 1.125rem;
     margin-bottom: 10px;
@@ -487,9 +451,9 @@ input[type="submit"] {
 /*----------------------pagetop-----------------*/
 #page-top a {
     display: flex;
-    justify-content:center;
-    align-items:center;
-    background:#004b83;
+    justify-content: center;
+    align-items: center;
+    background: #004b83;
     border-radius: 5px;
     width: 60px;
     height: 60px;
@@ -497,26 +461,23 @@ input[type="submit"] {
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    font-size:0.6rem;
-    transition:all 0.3s;
+    font-size: 0.6rem;
+    transition: all 0.3s;
 }
 #page-top a:hover {
     background: #777;
 }
-
-  /*リンクを右下に固定*/
+/*リンクを右下に固定*/
 #page-top {
     position: fixed;
     right: 10px;
-    bottom:10px;
+    bottom: 10px;
     z-index: 2;
   /*はじめは非表示*/
     opacity: 0;
     transform: translateY(100px);
 }
-
-  /*　上に上がる動き　*/
-
+/*　上に上がる動き　*/
 #page-top.UpMove {
     animation: UpAnime 0.5s forwards;
 }
@@ -530,8 +491,7 @@ input[type="submit"] {
     transform: translateY(0);
     }
 }
-
-  /*　下に下がる動き　*/
+/*　下に下がる動き　*/
 #page-top.DownMove {
     animation: DownAnime 0.5s forwards;
 }
@@ -545,19 +505,19 @@ input[type="submit"] {
       transform: translateY(100px);
     }
 }
+
 /*------------------footer--------------------------*/
 small {
-    background:#432;
-    color:#fff;
+    background: #432;
+    color: #fff;
     display: block;
     text-align: center;
-    padding:20px;
+    padding: 20px;
 }
 #footer {
     position: relative;
     z-index: 2;
 }
-
 
 
 /*モバイル版
@@ -577,12 +537,13 @@ small {
      left: 0;
      top: 62px;
   }
+   
    /* HOME */
   .home-content {
       margin-top: 20%;
   }
   .grid {
-      height: auto;/*3500px*/
+      height: auto;
       width: 100%;
       row-gap: 1%;
   }
@@ -599,6 +560,7 @@ small {
   .page-contents {
       flex-direction: column;
   }
+   
   /*地図*/
   #location .wrapper {
      flex-direction: column;
@@ -617,6 +579,7 @@ small {
   #contact .page-title {
       margin-top: 5%;
   }
+   
   /*フォーム　*/
   input[type="text"],
   input[type="email"],
@@ -630,6 +593,7 @@ small {
      font-size: 1rem;
      padding: 13px 25px;
   }
+   
   /*footer*/
    #footer{
       width: 100%;
