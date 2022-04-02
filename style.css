@@ -326,7 +326,7 @@ nav li.has-sub ul li a:active {
     color: #432;
     width: 350px;
 }
-.image img {
+.image {
     width: 350px;
     height: 350px;
     margin-top: 10px;
