@@ -258,8 +258,7 @@ nav li.has-sub ul li a:active {
     display: grid;
     gap: 1%;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    margin-top: 5%;
-    margin-bottom: 100px;
+    margin: 5% 5% 100px 5%;
     height: auto;
 }
 .item {
