@@ -309,8 +309,8 @@ nav li.has-sub ul li a:active {
     width: 90%; 
     height: 50%; 
     object-fit: cover;
-    margin: 0 auto;
-   text-align: center;
+    /*margin: 0 auto;*/
+    text-align: center;
 }
 .page-contents {
     display: grid;
