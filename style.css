@@ -295,6 +295,9 @@ nav li.has-sub ul li a:active {
 }
 
 /*各ページ-----------------------------------------------------*/
+.main {
+   margin: 0 auto;
+}
 .sub-title {
     font-size: 2.5rem;
     font-family: "遊ゴシック体";
@@ -309,8 +312,6 @@ nav li.has-sub ul li a:active {
     width: 90%; 
     height: 50%; 
     object-fit: cover;
-    /*margin: 0 auto;*/
-    align-items: center;
 }
 .page-contents {
     display: grid;
