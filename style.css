@@ -348,11 +348,13 @@ nav li.has-sub ul li a:active {
     padding: 4% 0;
     font-family: "遊ゴシック体";
     color: #432;
-}
-#location .wrapper {
     display: flex;
     justify-content: space-around;
 }
+/*#location .wrapper {
+    display: flex;
+    justify-content: space-around;
+}*/
 .location-info {
     width: 40%;
 }
