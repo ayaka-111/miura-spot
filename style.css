@@ -394,6 +394,7 @@ iframe {
 }
 #access .location-map {
    width: 70%;
+   text-align: center;
 }
 
 /* Contact---------------------------------------------*/
