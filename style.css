@@ -1,11 +1,6 @@
 @charset "UTF-8";
 /*　共通部分
 ------------------------------ */
-/*HEADER */
-hi img {
-   width: 90px;
-   margin-top: 5px;
-}
 html {
    font-size:100%;
 }
@@ -20,6 +15,11 @@ a {
 }
 img {
     max-width: 100%;
+}
+/*header*/
+hi img {
+   width: 90px;
+   margin-top: 5px;
 }
 /*header背景*/
 .page-header {
