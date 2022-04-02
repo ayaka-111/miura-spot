@@ -17,7 +17,7 @@ img {
     max-width: 100%;
 }
 /*header*/
-hi img {
+.logo {
    width: 90px;
    margin-top: 5px;
 }
