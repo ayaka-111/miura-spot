@@ -372,7 +372,7 @@ iframe {
     width: 100%;
 }
 /*access------------------------------------------------*/
-.access-title {
+.access-info {
     font-size: 2.5rem;
     font-family: "遊ゴシック体";
     text-transform: uppercase;
@@ -380,7 +380,7 @@ iframe {
     text-align: center;
     color: #432;
 }
-.access-title p {
+.access-info p {
     background-color: blanchedalmond;
     margin: 50px 10px;
 }
