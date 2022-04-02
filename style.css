@@ -296,7 +296,7 @@ nav li.has-sub ul li a:active {
 
 /*各ページ-----------------------------------------------------*/
 .main {
-   margin: 0 auto;
+   text-align: center;
 }
 .sub-title {
     font-size: 2.5rem;
