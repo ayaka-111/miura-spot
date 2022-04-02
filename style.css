@@ -305,7 +305,7 @@ nav li.has-sub ul li a:active {
     display: flex;
     flex-direction: column;
 }
-.sub-title img {
+.main img {
     width: 90%; 
     height: 50%; 
     object-fit: cover;
