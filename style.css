@@ -392,6 +392,9 @@ iframe {
     width: auto;
     height: auto;
 }
+#access .location-map {
+   width: 70%;
+}
 
 /* Contact---------------------------------------------*/
 #contact {
